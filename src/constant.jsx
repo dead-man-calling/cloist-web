@@ -1,0 +1,10 @@
+export const defaultExceptionMessage = '알 수 없는 오류로 인한 통신 실패';
+export const expiredExceptionMessage = '로그인 유효 기간이 만료되었습니다';
+export const regKorName = /^[가-힣]{2,6}$/;
+export const regPhone = /^01([0|1|6|7|8|9])([0-9]{4})([0-9]{4})$/;
+export const apiServerUrl = 'https://cloist.ml/api';
+export const recaptchaSiteKey = '6LdHKuscAAAAAEBL3EUPCG1NS5vkG3_eX7a7B7S1';
+export const prizeTitles = ['성실한', '친절한', '겸손한', '정직한', '배려 깊은'];
+export const cautionTitles = ['불성실한', '불친절한', '오만한', '기만적인', '배려 없는'];
+export const ratingTitles = ['천사', '빛나는', '어린 양', '어두운', '악마'];
+export const emptyString = ' ';
